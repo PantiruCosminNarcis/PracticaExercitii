@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/api/books")
 public class BookController {
 
-    @Autowired
+    @Autowired  //Injectie in camp
     private BookRepository bookRepository;
 
     @GetMapping

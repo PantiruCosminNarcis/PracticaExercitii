@@ -15,7 +15,6 @@ public class Book {
     @Column(nullable = false)
     private String author;
 
-    // Getters și Setters
     public long getId() {
         return id;
     }
